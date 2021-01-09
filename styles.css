@@ -95,24 +95,20 @@ textarea {
   text-align: center;
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 5px;
   border-collapse: collapse;
   border-radius: 30%;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #000000;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(24, 24, 24);
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(77, 77, 77);
 }
