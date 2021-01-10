@@ -131,6 +131,7 @@ textarea {
 }
 .menu .droite {
   float: right;
+  padding-right:  10px;
 }
 .menu li ul {
   display: none;
@@ -160,9 +161,54 @@ textarea {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
+  width: 5px ;
   font-family: Arial, Helvetica, sans-serif;
   background: rgb(26, 26, 26);
   transition-property: background;
   transition-duration: 0.6s;
   transition-timing-function: linear;
+}
+
+.socials {
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0px 2px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(26, 26, 26);
+  transition-property: background;
+  transition-duration: 0.6s;
+  transition-timing-function: linear;
+  border: 1px solid #949494;
+}
+
+.socials:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b4b4b4;
+  color: white;
+  background: #949494;
+}
+
+.cercle{
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width:50px;
+  height:50px;
+  border: 2px solid #949494;
+}
+
+.cercleimg{
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width:50px;
+  height:50px;
 }
