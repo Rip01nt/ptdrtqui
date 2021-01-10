@@ -11,7 +11,7 @@ u {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-  animation: colorRotate 1.5s linear 0s infinite;
+  animation: colorRotate 2s linear 0s infinite;
 }
   
 p {
@@ -187,6 +187,7 @@ textarea {
   transition-duration: 0.6s;
   transition-timing-function: linear;
   border: 1px solid #949494;
+  animation: colorRotate 2s linear 0s infinite;
 }
 
 .socials:hover {
